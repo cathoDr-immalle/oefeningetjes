@@ -31,7 +31,7 @@ namespace oefeningen
 
         static string MaakSterretjes(int count)
         {
-            
+            return "";
         }
 
     }
