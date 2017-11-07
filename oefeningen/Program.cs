@@ -20,18 +20,21 @@ namespace oefeningen
 
             TekenSterretjes(100);
             string sterretjes1 = MaakSterretjes(300);
+            Console.WriteLine(sterretjes1);
+            Console.Read();
         }
 
         
 
         static void TekenSterretjes(int count)
         {
-            Console.Write(new string('*', count));
+            Console.WriteLine(MaakSterretjes(count));
         }
 
         static string MaakSterretjes(int count)
         {
-            return "";
+
+            return new string('*',count);
         }
 
     }
