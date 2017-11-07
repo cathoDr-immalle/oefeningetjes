@@ -9,6 +9,30 @@ namespace oefeningen
     {
         static void Main(string[] args)
         {
+            //    string sterrentjes ="";
+
+            //    for(int i=0; i <= 100; i++)
+            //    {
+            //        sterrentjes += "*" ;
+            //    }
+
+            //    Console.WriteLine(sterrentjes);
+
+            TekenSterretjes(100);
+            string sterretjes1 = MaakSterretjes(300);
         }
+
+        
+
+        static void TekenSterretjes(int count)
+        {
+            Console.Write(new string('*', count));
+        }
+
+        static string MaakSterretjes(int count)
+        {
+            
+        }
+
     }
 }
